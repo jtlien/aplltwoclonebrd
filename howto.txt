@@ -1,0 +1,6 @@
+How to get the position file:
+   Go to all parts on the board.   Properties.
+    Change from Thru Hole to Surface mount.
+    Go to Production Files: Generate .pro file.
+    Quit out of board and do not save.
+    
