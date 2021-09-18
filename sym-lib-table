@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name 8t28)(type Legacy)(uri /home/john/kicad/8t28.lib)(options "")(descr ""))
+  (lib (name rcajack)(type Legacy)(uri /home/john/Downloads/rcj014/RCJ-014.lib)(options "")(descr ""))
+  (lib (name applebrd-rescue)(type Legacy)(uri ${KIPRJMOD}/applebrd-rescue.lib)(options "")(descr ""))
+)
