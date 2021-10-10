@@ -5867,7 +5867,7 @@ U 1 1 69357CBC
 P 40200 14550
 F 0 "UE10" H 39850 15300 50  0000 C CNN
 F 1 "2116" H 39850 15200 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 41250 13200 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 41250 13200 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 39900 15000 50  0001 C CNN
 	1    40200 14550
 	1    0    0    -1  
@@ -5969,7 +5969,7 @@ U 1 1 69357D27
 P 37900 14550
 F 0 "UE9" H 37550 15300 50  0000 C CNN
 F 1 "2116" H 37550 15200 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 38950 13200 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 38950 13200 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 37600 15000 50  0001 C CNN
 	1    37900 14550
 	1    0    0    -1  
@@ -5980,7 +5980,7 @@ U 1 1 69357D45
 P 31350 14550
 F 0 "UE6" H 31050 15250 50  0000 C CNN
 F 1 "2116" H 31050 15150 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 32400 13200 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 32400 13200 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 31050 15000 50  0001 C CNN
 	1    31350 14550
 	1    0    0    -1  
@@ -5991,7 +5991,7 @@ U 1 1 69357D4F
 P 29050 14550
 F 0 "UE5" H 28700 15300 50  0000 C CNN
 F 1 "2116" H 28700 15200 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 30100 13200 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 30100 13200 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 28750 15000 50  0001 C CNN
 	1    29050 14550
 	1    0    0    -1  
@@ -6002,7 +6002,7 @@ U 1 1 69357D59
 P 26900 14500
 F 0 "UE4" H 26600 15200 50  0000 C CNN
 F 1 "2116" H 26600 15100 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 27950 13150 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 27950 13150 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 26600 14950 50  0001 C CNN
 	1    26900 14500
 	1    0    0    -1  
@@ -6013,7 +6013,7 @@ U 1 1 69357D63
 P 24600 14550
 F 0 "UE3" H 24400 15300 50  0000 C CNN
 F 1 "2116" H 24400 15150 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 25650 13200 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 25650 13200 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 24300 15000 50  0001 C CNN
 	1    24600 14550
 	1    0    0    -1  
@@ -7627,7 +7627,7 @@ RA3
 Text Label 40900 15350 0    50   ~ 0
 RA5
 Wire Wire Line
-	34800 8100 34800 14500
+	34800 8100 34800 11200
 Wire Wire Line
 	34800 14500 34250 14500
 Wire Wire Line
@@ -7654,10 +7654,6 @@ Wire Wire Line
 	38500 11250 39100 11250
 Connection ~ 39100 11250
 Wire Wire Line
-	40850 8100 41550 8100
-Wire Wire Line
-	41550 8100 41550 11200
-Wire Wire Line
 	41550 11200 40700 11200
 Wire Wire Line
 	41550 14500 40800 14500
@@ -7675,8 +7671,6 @@ Text Label 36400 8100 0    50   ~ 0
 RDO5
 Text Label 38550 8150 0    50   ~ 0
 RDO6
-Text Label 40800 8100 0    50   ~ 0
-RDO7
 $Comp
 L 74xx:74LS174 UB5
 U 1 1 64C964A9
@@ -7748,14 +7742,11 @@ Wire Wire Line
 	39100 6350 35750 6350
 Connection ~ 39100 8150
 Wire Wire Line
-	41550 8100 41550 6250
-Wire Wire Line
 	41550 6250 36500 6250
 Wire Wire Line
 	36500 6250 36500 5000
 Wire Wire Line
 	36500 5000 36750 5000
-Connection ~ 41550 8100
 Wire Wire Line
 	34800 8100 34800 5100
 Connection ~ 34800 8100
@@ -8322,7 +8313,7 @@ Wire Wire Line
 	37000 6450 37000 8100
 Connection ~ 37000 8100
 Wire Wire Line
-	37000 8100 37000 14500
+	37000 8100 37000 11200
 Connection ~ 39450 11950
 Wire Wire Line
 	39450 8850 39650 8850
@@ -8580,7 +8571,7 @@ U 1 1 69357D31
 P 35800 14550
 F 0 "UE8" H 35500 15300 50  0000 C CNN
 F 1 "2116" H 35500 15200 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 36850 13200 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 36850 13200 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 35500 15000 50  0001 C CNN
 	1    35800 14550
 	1    0    0    -1  
@@ -8591,7 +8582,7 @@ U 1 1 69357D3B
 P 33650 14550
 F 0 "UE7" H 33350 15300 50  0000 C CNN
 F 1 "2116" H 33300 15200 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 34700 13200 50  0001 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 34700 13200 50  0001 C CNN
 F 3 "https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1616-TSOPI.pdf" H 33350 15000 50  0001 C CNN
 	1    33650 14550
 	1    0    0    -1  
@@ -15324,7 +15315,7 @@ U 3 1 924915FC
 P 13500 28650
 F 0 "UB12" H 13500 28975 50  0000 C CNN
 F 1 "74LS11" H 13500 28884 50  0000 C CNN
-F 2 "" H 13500 28650 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 13500 28650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS11" H 13500 28650 50  0001 C CNN
 	3    13500 28650
 	1    0    0    -1  
@@ -15544,6 +15535,39 @@ Wire Wire Line
 	12400 27100 12400 27750
 Wire Wire Line
 	12400 27100 12550 27100
+Text Notes 1650 5850 0    787  ~ 0
+   APPLE II CLONE BOARD \n   ON ONE SHEET\n
+Text Notes 55650 46600 0    59   ~ 0
+9/7/2021
+Text Notes 58000 46600 0    59   ~ 0
+1.0
+Text Notes 54950 46500 0    59   ~ 0
+APPLE II CLONE BOARD ON ONE SHEET
+Text Notes 54500 45750 0    59   ~ 0
+Copyright John Lien\n2021
+Text Notes 54500 45850 0    59   ~ 0
+Send corrections or comments to lienmeister@gmail.com
+Text Notes 3750 6750 0    335  ~ 0
+lienmeister@gmail.com
+Text Notes 3700 7400 0    335  ~ 0
+2021 For the Midwest Vintage Computer Show\n
+Wire Wire Line
+	34200 11200 34800 11200
+Connection ~ 34800 11200
+Wire Wire Line
+	34800 11200 34800 14500
+Wire Wire Line
+	36400 11200 37000 11200
+Connection ~ 37000 11200
+Wire Wire Line
+	37000 11200 37000 14500
+Wire Wire Line
+	41550 6250 41550 8100
+Wire Wire Line
+	40850 8100 41550 8100
+Connection ~ 41550 8100
+Wire Wire Line
+	41550 8100 41550 11200
 Wire Wire Line
 	16150 25200 21100 25200
 Wire Bus Line
@@ -15742,20 +15766,6 @@ Wire Bus Line
 	44950 20250 44950 27850
 Wire Bus Line
 	43350 20350 43350 25450
-Text Notes 1650 5850 0    787  ~ 0
-   APPLE II CLONE BOARD \n   ON ONE SHEET\n
-Text Notes 55650 46600 0    59   ~ 0
-9/7/2021
-Text Notes 58000 46600 0    59   ~ 0
-1.0
-Text Notes 54950 46500 0    59   ~ 0
-APPLE II CLONE BOARD ON ONE SHEET
-Text Notes 54500 45750 0    59   ~ 0
-Copyright John Lien\n2021
-Text Notes 54500 45850 0    59   ~ 0
-Send corrections or comments to lienmeister@gmail.com
-Text Notes 3750 6750 0    335  ~ 0
-lienmeister@gmail.com
-Text Notes 3700 7400 0    335  ~ 0
-2021 For the Midwest Vintage Computer Show\n
+Text Label 40900 8100 0    50   ~ 0
+RDO7
 $EndSCHEMATC
